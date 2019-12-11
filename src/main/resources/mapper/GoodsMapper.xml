@@ -25,4 +25,28 @@
     <result column="goods_stock" jdbcType="INTEGER" property="goodsStock" />
     <result column="goods_detail" jdbcType="LONGVARCHAR" property="goodsDetail" />
   </resultMap>
+  <resultMap id="BaseResultMap" type="com.zyz.seckill.pojo.Goods">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="goods_name" jdbcType="VARCHAR" property="goodsName" />
+    <result column="goods_title" jdbcType="VARCHAR" property="goodsTitle" />
+    <result column="goods_img" jdbcType="VARCHAR" property="goodsImg" />
+    <result column="goods_price" jdbcType="DECIMAL" property="goodsPrice" />
+    <result column="goods_stock" jdbcType="INTEGER" property="goodsStock" />
+    <result column="goods_detail" jdbcType="LONGVARCHAR" property="goodsDetail" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.zyz.seckill.pojo.Goods">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="goods_name" jdbcType="VARCHAR" property="goodsName" />
+    <result column="goods_title" jdbcType="VARCHAR" property="goodsTitle" />
+    <result column="goods_img" jdbcType="VARCHAR" property="goodsImg" />
+    <result column="goods_price" jdbcType="DECIMAL" property="goodsPrice" />
+    <result column="goods_stock" jdbcType="INTEGER" property="goodsStock" />
+    <result column="goods_detail" jdbcType="LONGVARCHAR" property="goodsDetail" />
+  </resultMap>
 </mapper>

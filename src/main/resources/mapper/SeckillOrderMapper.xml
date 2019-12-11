@@ -1,13 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.zyz.seckill.mapper.SeckillOrderMapper" >
-  <resultMap id="BaseResultMap" type="com.zyz.seckill.pojo.SeckillOrder" >
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zyz.seckill.mapper.SeckillOrderMapper">
+  <resultMap id="BaseResultMap" type="com.zyz.seckill.pojo.SeckillOrder">
     <!--
       WARNING - @mbg.generated
     -->
-    <id column="id" property="id" jdbcType="BIGINT" />
-    <result column="user_id" property="userId" jdbcType="BIGINT" />
-    <result column="order_id" property="orderId" jdbcType="BIGINT" />
-    <result column="goods_id" property="goodsId" jdbcType="BIGINT" />
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="order_id" jdbcType="BIGINT" property="orderId" />
+    <result column="goods_id" jdbcType="BIGINT" property="goodsId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.zyz.seckill.pojo.SeckillOrder">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="order_id" jdbcType="BIGINT" property="orderId" />
+    <result column="goods_id" jdbcType="BIGINT" property="goodsId" />
   </resultMap>
 </mapper>
