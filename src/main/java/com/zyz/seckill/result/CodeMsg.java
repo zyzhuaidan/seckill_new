@@ -47,6 +47,14 @@ public class CodeMsg {
 	}
 	
 	//返回一个带参数的错误码
+
+	/**
+	 * Object...args 相当于object数组
+	 * J2SE 1.5提供了“Varargs”机制。借助这一机制，
+	 * 可以定义能和多个实参相匹配的形参。从而，可以用一种更简单的方式，来传递个数可变的实参。
+	 * 本文介绍这一机制的使用方法，以及这一机制与数组、泛型、重载之间的相互作用时的若干问题。
+	 *
+	 */
 	public CodeMsg fillArgs(Object...args) {//变参
 		int code=this.code;
 		//message是填充了参数的message

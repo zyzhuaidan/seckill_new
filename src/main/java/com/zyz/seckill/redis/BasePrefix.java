@@ -9,7 +9,8 @@ public abstract class BasePrefix implements KeyPrefix {
      */
     private int expireSeconds;
     private String prefix;
-    public BasePrefix( String prefix) {//0表示永不过期
+
+    public BasePrefix(String prefix) {//0表示永不过期
         this(0, prefix);
     }
 
